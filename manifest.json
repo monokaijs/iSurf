@@ -1,0 +1,19 @@
+{
+	"name": "ISurf",
+	"version": "1.1",
+	"description": "A fast-login FB extension.",
+	"permissions": [
+		"activeTab",
+		"tabs",
+		"storage",
+		"cookies",
+		"<all_urls>"
+	],
+	"browser_action": {
+		"default_title": "ISurf",
+		"default_icon": "icon.png",
+		"default_popup": "popup.html"
+	},
+	"manifest_version": 2,
+	"content_security_policy": "script-src 'self' https://code.jquery.com https://cdn.metroui.org.ua; object-src 'self'"
+}
